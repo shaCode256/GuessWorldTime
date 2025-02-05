@@ -28,7 +28,7 @@ Text updates dynamically based on selection.
 
 ### **1️⃣ Clone the Repository**
 ```bash
-git clone https://github.com/yourusername/GuessWorldTime.git
+git clone https://github.com/shaCode256/GuessWorldTime.git
 cd GuessWorldTime
 ```
 
