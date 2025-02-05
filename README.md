@@ -8,19 +8,19 @@ If they guess correctly, their win is recorded, and they get a cool confetti eff
 
 ## 🚀 Features
 
-🌎 Fetches real-time world clock data for different cities.
-⏳ Users guess the time and get rewarded for correct answers.
-🎉 Confetti effect when guessing correctly.
-🖼️ Aesthetic design with background and animations.
-🖥️ FastAPI backend with MongoDB for storing winning guesses.
-✅ Unit tests to ensure everything works correctly.
-🔄 Client and server run with a single command.
-🌐 RTL & LTR layout support based on the selected language.
-🌍 Localization:
-Supports both English and Hebrew.
-Buttons to switch between the two languages.
-Text updates dynamically based on selection.
-📱 Fully responsive design for smooth display on different screen sizes.
+🌎 Fetches real-time world clock data for different cities.  
+⏳ Users guess the time and get rewarded for correct answers.  
+🎉 Confetti effect when guessing correctly.  
+🖼️ Aesthetic design with background and animations.  
+🖥️ FastAPI backend with MongoDB for storing winning guesses.  
+✅ Unit tests to ensure everything works correctly.  
+🔄 Client and server run with a single command.  
+🌐 RTL & LTR layout support based on the selected language.  
+🌍 Localization:  
+Supports both English and Hebrew.  
+Buttons to switch between the two languages.  
+Text updates dynamically based on selection.  
+📱 Fully responsive design for smooth display on different screen sizes.  
 
 ---
 
