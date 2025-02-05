@@ -139,8 +139,8 @@ pytest test_backend.py
 
 ---
 
-## 📸 Demo
-(Include a GIF or video of gameplay)
+## 📸 Screenshot
+![Alt text](screenshot.jpg?raw=true "World Time")
 
 ---
 
