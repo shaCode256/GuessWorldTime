@@ -1,7 +1,7 @@
 
-# 🌍 Jooba Guessing Game
+# 🌍 World Time Guessing Game
 
-Jooba is a fun web-based guessing game where users try to guess the **current time** in different cities around the world!  
+World Time is a fun web-based guessing game where users try to guess the **current time** in different cities around the world!  
 If they guess correctly, their win is recorded, and they get a cool confetti effect! 🎉
 
 ---
@@ -28,8 +28,8 @@ Text updates dynamically based on selection.
 
 ### **1️⃣ Clone the Repository**
 ```bash
-git clone https://github.com/yourusername/jooba-guessing-game.git
-cd jooba-guessing-game
+git clone https://github.com/yourusername/GuessWorldTime.git
+cd GuessWorldTime
 ```
 
 ### **2️⃣ Set Up Backend (FastAPI)**
