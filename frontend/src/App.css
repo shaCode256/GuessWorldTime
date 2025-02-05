@@ -1,0 +1,274 @@
+/* App.css */
+
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7fafc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #2b6cb0;
+  margin-bottom: 1.5rem;
+}
+
+h2 {
+  font-size: 1.25rem;
+  color: #2d3748;
+  margin-bottom: 1rem;
+}
+
+button {
+  background-color: #2b6cb0;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.25rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049 !important;  /* Ensure this overrides MUI's default */
+  transform: scale(1.1) !important; /* Ensure this works *
+  /* Increase size when hover */
+  transition: transform 0.3s ease;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 0.75rem;
+  margin: 0.75rem 0;
+  border: 1px solid #e2e8f0;
+  border-radius: 5px;
+}
+
+form {
+  margin-bottom: 1.5rem;
+}
+
+.language-buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1.5rem;
+}
+
+.language-buttons button {
+  margin-left: 1rem;
+}
+
+/* General styling */
+.app {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(145deg, #f0f0f0, #d9d9d9);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Language Toggle */
+.language-toggle {
+  margin-bottom: 20px;
+}
+
+.language-toggle button {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.language-toggle button:hover {
+  background-color: #45a049;
+  transform: scale(1.1);
+}
+
+.language-toggle button:active {
+  transform: scale(1);
+}
+
+/* Header */
+h1,
+h2 {
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #555;
+}
+
+/* Clock */
+.clock h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+  background: #f8f8f8;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.clock h2:hover {
+  background: #ffeb3b;
+  box-shadow: 0px 4px 15px rgba(255, 235, 59, 0.7);
+}
+
+/* Form Elements */
+.form-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.form-group label {
+  font-weight: 600;
+  color: #444;
+  margin-bottom: 5px;
+}
+
+.form-group select,
+.form-group input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}
+
+.form-group select:focus,
+.form-group input:focus {
+  border-color: #4a61ba;
+  box-shadow: 0px 0px 5px rgba(76, 175, 80, 0.5);
+}
+
+/* Submit Button */
+.submit-button {
+  background-color: #592e99;
+  color: white;
+  padding: 12px 25px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin-top: 20px;
+}
+
+.submit-button:hover {
+  background-color: #1f768a;
+  transform: scale(1.05);
+}
+
+.submit-button:active {
+  transform: scale(1);
+}
+
+/* Results List */
+.results-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.results-list li {
+  background-color: #fff;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.results-list li:hover {
+  background-color: #f4f4f4;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 600px) {
+  .app {
+    padding: 15px;
+  }
+
+  .form-group select,
+  .form-group input {
+    font-size: 14px;
+  }
+
+  .submit-button {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+}
+
+/* Make the container for the list horizontally scrollable */
+.guess-list-container {
+  display: flex;
+  overflow-x: auto;
+  /* Makes the list scrollable */
+  white-space: nowrap;
+  /* Prevents wrapping of the items */
+  padding: 10px 0;
+}
+
+.guess-item {
+  margin-right: 20px;
+  /* Adds space between items */
+  padding: 10px 20px;
+  background-color: #f3f3f3;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.guess-item:hover {
+  transform: scale(1.1);
+  /* Slight zoom effect on hover */
+  cursor: pointer;
+  /* Makes the cursor a hand pointer */
+}
+
+/* Example CSS */
+html[dir="rtl"] {
+  font-family: 'Arial', sans-serif;
+}
+
+html[dir="rtl"] .MuiPaper-root {
+  padding-right: 20px;
+  padding-left: 0;
+}
+
+html[dir="ltr"] .MuiPaper-root {
+  padding-left: 20px;
+  padding-right: 0;
+}
+

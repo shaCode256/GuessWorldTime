@@ -1,0 +1,8 @@
+pymongo
+fastapi
+mongomock
+httpx
+pytest
+uvicorn
+pytest-asyncio
+pydantic
