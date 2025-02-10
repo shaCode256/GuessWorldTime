@@ -140,6 +140,7 @@ pytest test_backend.py
 ---
 
 ## 📸 Screenshot
+![GuessWorldTime](WT.gif?raw=true "World Time")
 ![Alt text](screenshot.jpg?raw=true "World Time")
 
 ---
